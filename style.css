@@ -1,0 +1,260 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url(./img/homem-de-meia-idade-passando-um-tempo-na-prisao_23-2149098118.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-wpp {
+    height: 80px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+
+
+.caixa-inicial {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.5;
+    margin-top: 100px;
+    margin-right: 50px;
+    text-align: right;
+    justify-items: auto;
+    position: relative;
+
+}
+
+.paragrafo-h2 {
+    color: rgb(206, 91, 9);
+
+}
+
+span {
+
+    font-weight: bold;
+    
+}
+
+
+
+button {
+    width: 300px;
+    height: 70px;
+    background: #40C451;
+border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #080808;
+    margin-left: 20px;
+    cursor: pointer;
+}
+@keyframes anima {
+    0%{
+    
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.06);
+    }
+    
+    }
+button:hover {
+animation-name: anima;
+animation-duration: 0.5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+
+}
+
+.img-wpp:hover {
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+
+}
+
+.alinhar {
+    margin-right: 13px;
+
+}
+
+.plantao {
+    background-color: rgb(235, 101, 6);
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 400;
+    color: #080808e0;
+
+}
+
+.ajuda {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.fundo-branco {
+
+    width: 1200px;
+    background: #f4f4f4;
+    border-radius: 80px;
+    margin: 0 auto;
+    padding: 30px 24px 23px;
+
+}
+
+.img-martelo {
+
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.acompanhamento {
+
+    text-align: center;
+}
+
+.todos-iguais {
+    color: #555555;
+}
+
+.size {
+    font-size: 30px;
+
+
+}
+
+.img-lupa {
+
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.img-balança {
+
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.centralizar {
+
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 13px;
+}
+
+.alinhar2 {
+    margin-right: -27px
+}
+
+
+.fundo-escuro {
+    width: 100vw;
+    background: #1f1e1e;
+    color: #ffffff;
+    border-radius: none;
+    margin: 0 auto;
+    padding: 30px 24px 23px;
+  
+}
+
+.img-adv {
+width: 500px;
+height: 500px;
+display: inline-block;
+margin-left: auto;
+margin-left: auto;
+display: block;
+}
+
+.dr-tiago {
+display: flex;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+}
+
+.cores {
+
+color: rgb(231, 195, 34);
+
+}
+.fundo-conhecimento{
+    width: 80vw;
+    background: #b36a18;
+    color: #ffffff;
+    border-radius: none;
+    margin: 0 auto;
+    padding: 30px 24px 23px;
+
+}
+
+.conhecimento {
+
+    text-align: center;
+}
+.paragrafo-negrito {
+    font-size: 25px;
+    font-weight: 700;
+    color: #080808;
+    text-shadow: #0a0a0a;
+}
+ .centralizar-fim {
+
+text-align: center;
+
+
+ }
+
+
+ .paragrafo-final {
+display: flex;
+flex-direction: column;
+color: #ffffff;
+font-size: 26px;        
+margin: 10px 10px 10px 40px;
+ }
+ 
+ .paragrafo-plantao {
+
+color: #ffffff;
+font-size: 18px;
+ }
+
+ .div-final {
+
+text-align: center;
+color: #ffffff;
+font-weight: 400;
+font-size: 20px;
+margin-bottom: 30px;
+ }

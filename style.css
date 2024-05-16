@@ -2,14 +2,17 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
     background-image: url(./img/homem-de-meia-idade-passando-um-tempo-na-prisao_23-2149098118.png);
     background-size: cover;
-    background-repeat: no-repeat;
-}
+    background-repeat: repeat;
+    position: absolute;
+
+ }
+
 .img-wpp {
     height: 80px;
     position: fixed;
@@ -26,8 +29,8 @@ body {
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0.5;
-    margin-top: 100px;
-    margin-right: 50px;
+    margin-top: 120px;
+    margin-right: 110px;
     text-align: right;
     justify-items: auto;
     position: relative;
@@ -46,6 +49,12 @@ span {
 }
 
 
+.buttton {
+    height: 20px;
+    cursor: pointer;
+
+
+}
 
 button {
     width: 300px;
@@ -256,5 +265,5 @@ text-align: center;
 color: #ffffff;
 font-weight: 400;
 font-size: 20px;
-margin-bottom: 30px;
+margin-bottom: 40px;
  }

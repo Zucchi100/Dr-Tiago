@@ -8,10 +8,16 @@
 body {
     background-image: url(./img/homem-de-meia-idade-passando-um-tempo-na-prisao_23-2149098118.png);
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     position: absolute;
-
+background-color: #080808;
  }
+
+main {
+
+background-color: #080808;
+
+}
 
 .img-wpp {
     height: 80px;
@@ -38,7 +44,7 @@ body {
 }
 
 .paragrafo-h2 {
-    color: rgb(206, 91, 9);
+    color: rgb(243, 103, 4);
 
 }
 
@@ -277,6 +283,17 @@ margin-bottom: 40px;
     box-sizing: border-box;
 }
 
+body {
+
+
+    background-image: url(./img/homem-de-meia-idade-passando-um-tempo-na-prisao_23-2149098118.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+
+
 .caixa-inicial {
     font-size: 18px;
     line-height: 30px;
@@ -287,20 +304,20 @@ margin-bottom: 40px;
 }
 button{
     width: 278px;
-    height: 67px;
-    margin-left: -21px;
+    height: 70px;
+    margin-left: 15px;
 
     
 }
 
 
 .alinhar {
-    margin-right: 39px;
+    margin-right: -15px;
     font-size: 18px;
 }
 .alinhar2{
 
-    margin-right: 20px;
+    margin-right: -18px;
 
 }
 .plantao {

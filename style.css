@@ -5,12 +5,14 @@
     font-family: "Montserrat", sans-serif;
 }
 
+
 body {
     background-image: url(./img/homem-de-meia-idade-passando-um-tempo-na-prisao_23-2149098118.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
 background-color: #080808;
+
  }
 
 main {
@@ -40,6 +42,7 @@ background-color: #080808;
     text-align: right;
     justify-items: auto;
     position: relative;
+    
 
 }
 
